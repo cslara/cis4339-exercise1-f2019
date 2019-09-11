@@ -7,6 +7,15 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <body>
+    <div id "header">
+    <h1>Super hero data base</h1>
+    <p class="fancy">
+    <%= link_to 'Super Heroes', super_heros_path %>
+<%= link_to 'Super Powers', super_powers_path %>
+</p>
+</div>
   </head>
 
   <body>
